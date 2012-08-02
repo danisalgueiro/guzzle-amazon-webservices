@@ -1,0 +1,22 @@
+{
+    "name": "danisalgueiro/guzzle-amazon-webservices",
+    "type": "library",
+    "description": "Guzzle cliente for Amazon Webservices (AWS)",
+    "keywords": ["Guzzle", "Amazon"],
+    
+    "authors": [
+        {
+            "name": "Dani Salgueiro",
+            "email": "dani@danisalgueiro.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.3.2",
+        "guzzle/guzzle": "*"
+    },
+    
+    "autoload": {
+        "psr-0": { "GuzzleAmazonWebservices": "src/" }
+    }
+}
