@@ -1,8 +1,8 @@
 {
     "name": "danisalgueiro/guzzle-amazon-webservices",
     "type": "library",
-    "description": "Guzzle cliente for Amazon Webservices (AWS)",
-    "keywords": ["Guzzle", "Amazon"],
+    "description": "Guzzle client for Amazon Webservices (AWS)",
+    "keywords": ["guzzle", "rest", "amazon", "api"],
     
     "authors": [
         {
