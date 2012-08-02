@@ -10,8 +10,8 @@ before_script:
 script: phpunit --coverage-text
 
 notifications:
-	email:
-    	recipients:
-      		- dani@danisalgueiro.com
-    	on_success: never
-    	on_failure: always
+    email:
+        recipients:
+            - dani@danisalgueiro.com
+        on_success: never
+        on_failure: always
