@@ -32,21 +32,4 @@ class ProductAdvertisingClientTest extends GuzzleTestCase
             'secret_key' => '9876'
         ));
     }
-    
-    public function testAll()
-    {
-        $client = ProductAdvertisingClient::factory(array(
-            'access_key' => 'AKIAJ75M4ZDNYIT33TBQ',
-            'secret_key' => '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',
-            'associate_tag' => ''
-        ));
-        
-        $command = $client->getCommand('ItemSearch');
-        $command->setTitle('harry potter');
-        $command->setSearchIndex('Books');
-        $command->setResponseGroup('Small');
-        
-        $result = $client->execute($command);
-        print_r($result);
-    }
 }
